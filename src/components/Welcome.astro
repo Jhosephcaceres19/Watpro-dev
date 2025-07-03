@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import Header from '../components/Header.astro'
+import Header from "../components/Header.astro";
 ---
 
 <!doctype html>
@@ -10,6 +10,16 @@ import Header from '../components/Header.astro'
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <Header/>
-  <body> hola</body>
+
+  <body class="">
+    <Header />
+    <div class="flex">
+      <div class="border-2 w-1/2 h-screen">
+        <h3>INGENIERIA EN AGUAS Y PROCESOS</h3>
+        <h1>"Soluciones reales para los desafios del agua."</h1>
+        <button>ATENCION AL PUBLICO</button>
+      </div>
+      <div class="border-2 w-1/2"></div>
+    </div>
+  </body>
 </html>
